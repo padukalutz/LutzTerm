@@ -12,12 +12,12 @@ jobs:
 
     steps:
       - name: Checkout Lutz Term
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: app
 
       - name: Checkout Lutz Term packages
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: padukalutz/LutzTerm-packages
           ref: lutzterm
